@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbMirrorConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbMirrorConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Mirrorv1.Properties.Settings.GlobalReference.Default.dbMirrorConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="repSisListaUsuariosTableAdapter" GeneratorDataComponentClassName="repSisListaUsuariosTableAdapter" Name="repSisListaUsuarios" UserDataComponentName="repSisListaUsuariosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbMirrorConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select 0 as UsuarioID, '' as UserLogin, 0 as TipoCuentaID, '' as  TipoCuenta, 0 as EmpleadoID, '' as EmpleadoNombre, 0 as Activo </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="UsuarioID" DataSetColumn="UsuarioID" />
+              <Mapping SourceColumn="UserLogin" DataSetColumn="UserLogin" />
+              <Mapping SourceColumn="TipoCuentaID" DataSetColumn="TipoCuentaID" />
+              <Mapping SourceColumn="TipoCuenta" DataSetColumn="TipoCuenta" />
+              <Mapping SourceColumn="EmpleadoID" DataSetColumn="EmpleadoID" />
+              <Mapping SourceColumn="EmpleadoNombre" DataSetColumn="EmpleadoNombre" />
+              <Mapping SourceColumn="Activo" DataSetColumn="Activo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="repSisListaUsuarios" msprop:Generator_TableClassName="repSisListaUsuariosDataTable" msprop:Generator_TableVarName="tablerepSisListaUsuarios" msprop:Generator_RowChangedName="repSisListaUsuariosRowChanged" msprop:Generator_TablePropName="repSisListaUsuarios" msprop:Generator_RowDeletingName="repSisListaUsuariosRowDeleting" msprop:Generator_RowChangingName="repSisListaUsuariosRowChanging" msprop:Generator_RowEvHandlerName="repSisListaUsuariosRowChangeEventHandler" msprop:Generator_RowDeletedName="repSisListaUsuariosRowDeleted" msprop:Generator_RowClassName="repSisListaUsuariosRow" msprop:Generator_UserTableName="repSisListaUsuarios" msprop:Generator_RowEvArgName="repSisListaUsuariosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UsuarioID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnUsuarioID" msprop:Generator_ColumnPropNameInRow="UsuarioID" msprop:Generator_ColumnPropNameInTable="UsuarioIDColumn" msprop:Generator_UserColumnName="UsuarioID" type="xs:int" minOccurs="0" />
+              <xs:element name="UserLogin" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnUserLogin" msprop:Generator_ColumnPropNameInRow="UserLogin" msprop:Generator_ColumnPropNameInTable="UserLoginColumn" msprop:Generator_UserColumnName="UserLogin" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoCuentaID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTipoCuentaID" msprop:Generator_ColumnPropNameInRow="TipoCuentaID" msprop:Generator_ColumnPropNameInTable="TipoCuentaIDColumn" msprop:Generator_UserColumnName="TipoCuentaID" type="xs:int" minOccurs="0" />
+              <xs:element name="TipoCuenta" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTipoCuenta" msprop:Generator_ColumnPropNameInRow="TipoCuenta" msprop:Generator_ColumnPropNameInTable="TipoCuentaColumn" msprop:Generator_UserColumnName="TipoCuenta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmpleadoID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnEmpleadoID" msprop:Generator_ColumnPropNameInRow="EmpleadoID" msprop:Generator_ColumnPropNameInTable="EmpleadoIDColumn" msprop:Generator_UserColumnName="EmpleadoID" type="xs:int" minOccurs="0" />
+              <xs:element name="EmpleadoNombre" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnEmpleadoNombre" msprop:Generator_ColumnPropNameInRow="EmpleadoNombre" msprop:Generator_ColumnPropNameInTable="EmpleadoNombreColumn" msprop:Generator_UserColumnName="EmpleadoNombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Activo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnActivo" msprop:Generator_ColumnPropNameInRow="Activo" msprop:Generator_ColumnPropNameInTable="ActivoColumn" msprop:Generator_UserColumnName="Activo" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,14 @@
+F:\Mirror v1\Configurador\bin\Debug\Configurador.exe.config
+F:\Mirror v1\Configurador\bin\Debug\Configurador.exe
+F:\Mirror v1\Configurador\bin\Debug\Configurador.pdb
+F:\Mirror v1\Configurador\obj\Debug\Configurador.csprojAssemblyReference.cache
+F:\Mirror v1\Configurador\obj\Debug\Configurador.Formularios.frmConection.resources
+F:\Mirror v1\Configurador\obj\Debug\Configurador.Formularios.frmMensajeServidor.resources
+F:\Mirror v1\Configurador\obj\Debug\Configurador.Properties.Resources.resources
+F:\Mirror v1\Configurador\obj\Debug\Configurador.csproj.GenerateResource.cache
+F:\Mirror v1\Configurador\obj\Debug\Configurador.csproj.CoreCompileInputs.cache
+F:\Mirror v1\Configurador\obj\Debug\Configurador.exe
+F:\Mirror v1\Configurador\obj\Debug\Configurador.pdb
+F:\Mirror v1\Configurador\obj\Debug\Configurador.Formularios.frmConfiguracion.resources
+F:\Mirror v1\Configurador\bin\Debug\Newtonsoft.Json.dll
+F:\Mirror v1\Configurador\obj\Debug\Configurador.csproj.CopyComplete
